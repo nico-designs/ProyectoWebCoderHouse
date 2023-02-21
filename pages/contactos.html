@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Gimnasio Esparta</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+         <header class="header">
+            <h1>Gimnasio Esparta</h1>
+           <nav id="navegacion">
+            <ul class="links">
+            <li class="link_inicio"><a href="../index.html">Inicio</a></li> 
+            <li><a href="quienesSomos.html">QuienesSomos</a></li>              
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="ubicacion.html">Ubicacion</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+           </nav>
+        </header>   
+        </div>
+    </section>
+
+
+    <main class="form_main">
+        <h1 class="text-center">Formulario de contacto</h1>
+        <form class="row g-3">
+              <div class="col-md-5">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="Name" class="form-control" id="inputName" placeholder="Escriba su nombre" required>
+              </div>
+              <div class="col-md-5">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido" placeholder="Escriba su apellido" required>
+              </div>
+              <div class="col-md-10">
+                <label for="inputNamel4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+              </div>
+              <div class="mb-3 col-md-10">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" required></textarea>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Tipo de entrenamiento</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Eija su nivel de entrenamiento</option>
+                  <option>Basico</option>
+                  <option>Intermedio</option>
+                  <option>Avanzado</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    No soy robot
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+        </form>
+    </main>
+
+    <footer id="footer">
+        <div class="footer_contenedor">
+            <p>En GymEsparta cuidamos tu salud, por eso recomendamos traer apto medico</p>
+            <p>Diseñado por <strong>NicoSanchez</strong> </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+   
